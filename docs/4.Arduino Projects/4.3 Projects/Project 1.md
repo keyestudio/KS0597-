@@ -384,7 +384,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Read the photoresistor value]
+    B --> C[Resdfsdfsadfsadfsdflue]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
    
@@ -395,7 +395,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Read the photoresistor value]
+    B --> C[Resdfsadfasdfasdfsadfsddfgdfgdfgdfgsdfsdfalue]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
@@ -408,7 +408,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Read the photoresistor value]
+    B --> C[Reaggggggggggggggggggggggggggggggggggggggggggggggggglue]
     C --> D[Serial monitor displays data]
     
 ```
