@@ -347,13 +347,13 @@ Next, we will gradually complete the code writing and debugging to ultimately cr
 ```{mermaid}
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Resdfsdfsadfsadfsdflue]
+    B --> C[Read the photoresistor]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
     E -- NO --> G[Turn off LED]
     F & G --> H[Delay 500ms]
-    H --> C[Resdfsdfsadfsadfsdflue]
+    H --> C[Read the photoresistor]
 ```
 
 
@@ -361,7 +361,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Rerwerewrwerwerue]
+    B --> C[Read the photoresistor value]
     
    
 ```
@@ -371,7 +371,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Resdfsdfsadfsadfsdflue]
+    B --> C[Read the photoresistor]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
@@ -384,7 +384,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Resdfsdfsadfsadfsdflue]
+    B --> C[Read the photoresistor]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
    
@@ -395,7 +395,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Resdfsdfsadfsadfsdflue]
+    B --> C[Read the photoresistor]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
@@ -408,7 +408,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Resdfsdfsadfsadfsdflue]
+    B --> C[Read the photoresistor]
     C --> D[Serial monitor displays data]
     
 ```
