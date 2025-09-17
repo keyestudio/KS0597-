@@ -361,7 +361,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Read the photoresistor value]
+    B --> C[Serial monitor displays data]
     
    
 ```
