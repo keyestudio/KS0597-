@@ -27,7 +27,8 @@ copyright = 'Shenzhen keyestudio Technology Co., Ltd'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['myst_parser','sphinx_copybutton']
+extensions = ['myst_parser','sphinx_copybutton','sphinxcontrib.mermaid']
+myst_fence_as_directive = ["mermaid"]
 
 source_suffix = {
     '.rst': 'restructuredtext',
