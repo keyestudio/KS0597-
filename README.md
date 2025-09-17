@@ -2,7 +2,7 @@
 
 #### Code Flow
 
-```mermaid
+```{mermaid}
 graph TD
     A([START]) --> B[Initialization]
     B --> C[Read the photoresistor value]
