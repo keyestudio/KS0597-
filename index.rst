@@ -15,15 +15,17 @@
 
 .. mermaid::
 
-    A([START]) --> B[Initialization]
-    B --> C[Read the photoresistor value]
-    C --> D[Serial monitor displays data]
-    D --> E{light intensity}
-    E -- YES --> F[Turn on LED]
-    E -- NO --> G[Turn off LED]
-    F \& G --> H[Delay 500ms]
-    H --> C[Read the photoresistor value]
-
+   sequenceDiagram
+      participant Alice
+      participant Bob
+      Alice->John: Hello John, how are you?
+      loop Healthcheck
+          John->John: Fight against hypochondria
+      end
+      Note right of John: Rational thoughts <br/>prevail...
+      John-->Alice: Great!
+      John->Bob: How about you?
+      Bob-->John: Jolly good!
 
 
 
