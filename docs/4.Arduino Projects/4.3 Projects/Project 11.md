@@ -57,10 +57,10 @@ The web page dynamically updates their status through JavaScript without refresh
 flowchart TD
     A[Users visit web pages] --> B{Click the button}
     B -->|ON| C[ESP32 receives /ON request]
-    B -->|OFF| D[ESP32 receives /OFF request]
-    C --> E[GPIO outputs a high level, \nLED on]
-    D --> F[GPIO outputs a low level, \nLED off]
-    E & F --> G[Web page displays new status]
+    B -->|OFF| D[It receives /OFF request]
+    C --> E[GPIO outputs high, \nLED on]
+    D --> F[GPIO outputs low, \nLED off]
+    E & F --> G[Web page refreshes status]
 ```
 
 

@@ -21,7 +21,7 @@ Since this system integrates monitoring, display and intelligent alarm, it can r
 
 ```mermaid
 graph TD
-    A[START] --> B[Initialize the sensor and display]
+    A[START] --> B[Initialization]
     B --> C{Main loop delay 1s}
     C -->|YES| D[Read all sensor data]
     D --> E[Update OLED display]

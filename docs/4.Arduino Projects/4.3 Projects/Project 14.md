@@ -31,7 +31,7 @@ flowchart TD
     C --> D{Request processing}
     D --> E[Web page]
     D --> F[Sensor data]
-    E --> G[Real-time monitoring display]
+    E --> G[Display in real time]
     F --> G
     G --> H[Application completed]
 ```

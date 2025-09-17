@@ -348,10 +348,10 @@ In the system, it can identify the RFID cards of authorized personnel and open/c
 
 ```mermaid
 flowchart TD
-    A([START]) --> B[Initialize the RFID and servo]
+    A([START]) --> B[Initialization]
     B --> C{RFID card detected?}
     C -- YES --> D[Read card UID]
-    D --> E{UID matches authorization list?}
+    D --> E{UID authorized?}
     E -- YES --> F[open the door for 2s] --> G[close the door]
     E -- NO --> H[Prompt: Unauthorized]
     C -- NO --> C

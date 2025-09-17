@@ -142,12 +142,12 @@ Next, we will connect hardware, write code and debug, and ultimately create a ba
 
 ```mermaid
 graph TD
-    A([START]) --> B[Initialize the OLED and serial port]
+    A([START]) --> B[Initialization]
     B --> C[Clear the display]
     C --> D[Set font parameters]
     D --> E[Read GPIO18 level]
     E --> F{Basketball detected?<br>GPIO18=0?}
-    F -- YES --> G[Counter goal+1<br>Delay 100ms to eliminate jitter]
+    F -- YES --> G[Counter goal+1<br>Delay 100ms <br>to eliminate jitter]
     G --> H[Display the current score]
     F -- NO --> H
     H --> I[Delay 250ms to refresh]

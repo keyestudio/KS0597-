@@ -498,13 +498,15 @@ Here we will implement an intelligent device capable of monitoring the eCO₂ co
 
 Let's build this practical and technological monitoring system together!
 
+
+
 #### Code Flow
 
 ```mermaid
 graph TD
-    A[START] --> B[Initialize ENS160 and LED strip]
+    A[START] --> B[Initialization]
     B --> C[Detect eCO2 concentration]
-    C --> D{Determine the concentration}
+    C --> D{Determine the range}
     
     D -->|<=800ppm| E[Green always on]
     D -->|800-1000ppm| F[Blue always on]

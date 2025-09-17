@@ -391,11 +391,11 @@ Now, let’s embark on this practical journey of environment perception!
 graph TD
     A[START] --> B[Initialize the hardware]
     B --> C{AHT20 & OLED<br> initialized?}
-    C -->|YES| D[Show initialization interface]
+    C -->|YES| D[Show the interface]
     C -->|NO| E[Report an error and stop]
     D --> F[Main loop]
     F --> G{1 second later?}
-    G -->|YES| H[Read the data and refresh the display]
+    G -->|YES| H[Read data, refresh display]
     H --> F
     G -->|NO| F
 ```

@@ -30,19 +30,17 @@ Through this project, you will not only be able to create a “compliant” curt
 
 ```mermaid
 flowchart TD
-    A[Users visit web page] --> B[Browser loads the HTML interface]
+    A[Users visit web page] --> B[Browser loads HTML]
     B --> C{User operation}
     C -->|Click forward button| D[send /forward request]
     C -->|Click reversal button| E[send /reverse request]
     
-    subgraph ESP32
-        D --> F[Execute rotateMotor\n2 turns, forward]
-        E --> G[Execute rotateMotor\n2 turns, reversal]
-        F --> H[Return an empty response of 200]
+        D --> F[Forward rotate 2 turns]
+        E --> G[Reverse rotate 2 turns]
+        F --> H[Return empty response 200]
         G --> H
-    end
 
-    H --> I[Browser receives the response]
+    H --> I[Browser receives response]
     I --> J[The motor finishes rotation]
     
 

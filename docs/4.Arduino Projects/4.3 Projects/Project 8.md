@@ -241,7 +241,7 @@ graph TD
     B --> C{PIR detects a person?}
     C -- YES --> D[Alarm]
     D --> E[The buzzer sounds 10 times]
-    E --> F[The alarm lasts for 5 seconds]
+    E --> F[The alarm lasts for 5s]
     F --> C
     C -- NO --> C
 ```
