@@ -344,7 +344,7 @@ Next, we will gradually complete the code writing and debugging to ultimately cr
 
 #### Code Flow
 
-```mermaid
+```{mermaid}
 graph TD
     A([START]) --> B[Initialization]
     B --> C[Read the photoresistor value]
@@ -354,6 +354,63 @@ graph TD
     E -- NO --> G[Turn off LED]
     F & G --> H[Delay 500ms]
     H --> C[Read the photoresistor value]
+```
+
+
+
+```mermaid
+graph TD
+    A([START]) --> B[Initialization]
+    B --> C[Read the photoresistor value]
+    
+   
+```
+
+
+
+```mermaid
+graph TD
+    A([START]) --> B[Initialization]
+    B --> C[Read the photoresistor value]
+    C --> D[Serial monitor displays data]
+    D --> E{light intensity<br><2000?}
+    E -- YES --> F[Turn on LED]
+    E -- NO --> G[Turn off LED]
+    F & G --> H[Delay 500ms]
+```
+
+
+
+```mermaid
+graph TD
+    A([START]) --> B[Initialization]
+    B --> C[Read the photoresistor value]
+    C --> D[Serial monitor displays data]
+    D --> E{light intensity<br><2000?}
+   
+```
+
+
+
+```mermaid
+graph TD
+    A([START]) --> B[Initialization]
+    B --> C[Read the photoresistor value]
+    C --> D[Serial monitor displays data]
+    D --> E{light intensity<br><2000?}
+    E -- YES --> F[Turn on LED]
+    E -- NO --> G[Turn off LED]
+   
+```
+
+
+
+```mermaid
+graph TD
+    A([START]) --> B[Initialization]
+    B --> C[Read the photoresistor value]
+    C --> D[Serial monitor displays data]
+    
 ```
 
 
