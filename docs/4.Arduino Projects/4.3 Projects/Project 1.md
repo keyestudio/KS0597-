@@ -347,7 +347,7 @@ Next, we will gradually complete the code writing and debugging to ultimately cr
 ```{mermaid}
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Re23123123123123123e]
+    B --> C[Resdfsdfsadfsadfsdflue]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
@@ -371,7 +371,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Re546456456345634563456345lue]
+    B --> C[Resdfsdfsadfsadfsdflue]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
@@ -395,7 +395,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Resdfsadfasdfasdfsadfsddfgdfgdfgdfgsdfsdfalue]
+    B --> C[Resdfsdfsadfsadfsdflue]
     C --> D[Serial monitor displays data]
     D --> E{light intensity<br><2000?}
     E -- YES --> F[Turn on LED]
@@ -408,7 +408,7 @@ graph TD
 ```mermaid
 graph TD
     A([START]) --> B[Initialization]
-    B --> C[Reaggggggggggggggggggggggggggggggggggggggggggggggggglue]
+    B --> C[Resdfsdfsadfsadfsdflue]
     C --> D[Serial monitor displays data]
     
 ```
