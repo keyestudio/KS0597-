@@ -340,8 +340,6 @@ In the previous two sections, we have already learned the basic principles and u
 
 Next, we will gradually complete the code writing and debugging to ultimately create a practical prototype of a smart street lamp. Now let’s embark on this journey full of creativity and challenges together!
 
-==Photos of basswood boards==
-
 
 
 #### Code Flow
@@ -355,7 +353,7 @@ graph TD
     E -- YES --> F[Turn on LED]
     E -- NO --> G[Turn off LED]
     F & G --> H[Delay 500ms]
-    H --> C
+    H --> C[Read the photoresistor value]
 ```
 
 
