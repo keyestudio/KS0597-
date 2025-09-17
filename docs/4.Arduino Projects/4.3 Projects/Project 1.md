@@ -353,7 +353,7 @@ graph TD
     E -- YES --> F[Turn on LED]
     E -- NO --> G[Turn off LED]
     F & G --> H[Delay 500ms]
-    H --> C[Read the photoresistor value]
+    H --> C[Resdfsdfsadfsadfsdflue]
 ```
 
 
