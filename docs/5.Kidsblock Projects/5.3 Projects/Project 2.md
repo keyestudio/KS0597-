@@ -347,7 +347,7 @@ According to the eCO₂ concentration value, it is divided into four levels, and
 - Bad(≤1500ppm): yellow always on
 - Extremely bad(>1500ppm): red always on
 
-You can simulate changes in air quality by taking a deep breath and then exhaling slowly onto the ENS160 sensor. At this time, the eCO₂ concentration value will rise, and you can observe the color of the RGB LED changing accordingly.
+You can simulate changes in air quality by taking a deep breath and then exhaling slowly onto the ENS160 sensor. At this time, the eCO₂ concentration value will rise, and you can observe the color of the RGB LED changing accordingly.Exhaling directly to the module will not raise the eCO2 concentration to the level of severe pollution.
 
 
 
